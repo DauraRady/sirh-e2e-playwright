@@ -15,7 +15,7 @@ test.beforeEach(async ({ page }) => {
 
 test.describe("Admin management", () => {
   test("Admin Login", async ({ page }) => {
-    // Vérifier que l'URL correspond au tableau de bord après connexion
+   
     await expect(page).toHaveURL(
       "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
     );
