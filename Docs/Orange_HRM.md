@@ -1,6 +1,4 @@
-Voici le **résumé détaillé du fonctionnement d’OrangeHRM en mode Markdown**, prêt à être intégré dans un fichier `.md`, Notion, GitHub, ou tout autre outil :
 
----
 
 # 🧠 Résumé Fonctionnement OrangeHRM
 
