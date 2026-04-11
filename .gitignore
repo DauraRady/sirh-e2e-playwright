@@ -12,3 +12,7 @@ allure-report/
 Docs/cours-playwright-patterns.md
 Docs/playwright-skill-prompt.md
 CLAUDE
+dist/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
