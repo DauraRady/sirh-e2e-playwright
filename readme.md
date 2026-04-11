@@ -3,7 +3,7 @@
 ![Playwright](https://img.shields.io/badge/Playwright-1.53-45ba4b.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6.svg)
 ![Node](https://img.shields.io/badge/Node-20.x-339933.svg)
-![Tests](https://img.shields.io/badge/Tests-17-brightgreen.svg)
+![Tests](https://img.shields.io/badge/Tests-20-brightgreen.svg)
 
 # OrangeHRM — Playwright E2E Test Suite
 
