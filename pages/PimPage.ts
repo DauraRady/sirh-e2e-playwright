@@ -28,9 +28,11 @@ export class PimPage extends BasePage {
 
   async searchEmployee(name: string): Promise<void> {
     await test.step(`Search employee "${name}"`, async () => {
+      // PIM page has 2 "Type for hints..." fields — target the first one (Employee Name)
+      const employeeNameInput = this.page.getByPlaceholder('Type for hints...').first();
       const [autocompleteResponse] = await Promise.all([
         this.page.waitForResponse(r => r.url().includes('/api/v2/') && r.status() === 200),
-        this.page.getByPlaceholder('Type for hints...').fill(name),
+        employeeNameInput.fill(name),
       ]);
 
       await Promise.all([
