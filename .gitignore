@@ -9,4 +9,6 @@ node_modules/
 .env
 allure-results/
 allure-report/
+Docs/cours-playwright-patterns.md
+Docs/playwright-skill-prompt.md
 CLAUDE
