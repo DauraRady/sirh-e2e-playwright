@@ -1,5 +1,5 @@
 ![Playwright Tests](https://github.com/DauraRady/Playwright-OrangeHRM/actions/workflows/playwright.yml/badge.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red.svg)
 ![Playwright](https://img.shields.io/badge/Playwright-1.53-45ba4b.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6.svg)
 ![Node](https://img.shields.io/badge/Node-20.x-339933.svg)
