@@ -1,4 +1,4 @@
-![Playwright Tests](https://github.com/DauraRady/Playwright-OrangeHRM/actions/workflows/playwright.yml/badge.svg)
+![Playwright Tests](https://github.com/DauraRady/sirh-e2e-playwright/actions/workflows/playwright.yml/badge.svg)
 ![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red.svg)
 ![Playwright](https://img.shields.io/badge/Playwright-1.53-45ba4b.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6.svg)
@@ -14,7 +14,7 @@ This project applies a **Risk-Based Testing** strategy — we don't test everyth
 ## Quick Start
 
 ```bash
-git clone https://github.com/DauraRady/Playwright-OrangeHRM.git
+git clone https://github.com/DauraRady/sirh-e2e-playwright.git
 cd Playwright-OrangeHRM
 npm install
 npx playwright install chromium
