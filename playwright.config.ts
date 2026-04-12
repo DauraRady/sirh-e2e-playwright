@@ -37,6 +37,7 @@ export default defineConfig({
     },
     {
       name: 'auth-tests',
+      dependencies: ['setup'],
       testMatch: /tests\/auth\/.*/,
       use: { ...devices['Desktop Chrome'] },
     },
@@ -74,6 +75,15 @@ export default defineConfig({
       use: {
         ...devices['Desktop Chrome'],
         storageState: path.join(__dirname, '.auth/admin.json'),
+      },
+    },
+    {
+      name: 'ess-tests',
+      dependencies: ['setup'],
+      testMatch: /tests\/ess\/.*/,
+      use: {
+        ...devices['Desktop Chrome'],
+        storageState: path.join(__dirname, '.auth/ess.json'),
       },
     },
     {

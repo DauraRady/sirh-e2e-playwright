@@ -5,6 +5,14 @@ export const USERS = {
   },
 } as const;
 
+// ESS user — created dynamically in auth.setup.ts
+// Username and password are generated per run to avoid collisions
+export const ESS_PASSWORD = 'EssTest@123';
+
+export function essUsername(): string {
+  return `ess_${Date.now()}`;
+}
+
 export function uniqueUsername(prefix = 'qa'): string {
   return `${prefix}_${Date.now()}`;
 }
