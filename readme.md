@@ -34,6 +34,8 @@ npx playwright test
 | P2 | Time | 1 | Punch in/out page |
 | | **Total** | **17** | |
 
+> **Note** — `leave/approve-leave.spec.ts` is intentionally skipped (`test.skip`). It requires a pending leave request as a prerequisite, which has not been seeded yet. The test is kept as a placeholder for a future iteration.
+
 ## Key Patterns
 
 | Pattern | Why |
