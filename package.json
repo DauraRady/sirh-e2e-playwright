@@ -12,16 +12,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DauraRady/OrangeHRM-rbt-playwright.git"
+    "url": "git+https://github.com/DauraRady/Playwright-OrangeHRM.git"
   },
   "keywords": [],
   "author": "DauraRady",
   "license": "SEE LICENSE IN LICENSE",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/DauraRady/OrangeHRM-rbt-playwright/issues"
+    "url": "https://github.com/DauraRady/Playwright-OrangeHRM/issues"
   },
-  "homepage": "https://github.com/DauraRady/OrangeHRM-rbt-playwright#readme",
+  "homepage": "https://github.com/DauraRady/Playwright-OrangeHRM#readme",
   "devDependencies": {
     "@playwright/test": "^1.52.0",
     "@types/node": "^22.15.2",

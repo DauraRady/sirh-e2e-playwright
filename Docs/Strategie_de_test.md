@@ -77,7 +77,7 @@ Chaque fonctionnalité est évaluée selon 3 critères :
 - Tests de rôles (Admin, ESS, Manager)
 - Tests de non-régression (sur chaque sprint)
 - Tests de performance (Punch, Leave)
-- Tests automatisés (Playwright + Python ou Selenium)
+- Tests automatisés (Playwright + TypeScript)
 
 ---
 
@@ -183,8 +183,9 @@ Chaque fonctionnalité est évaluée selon 3 critères :
 ### 🧰 Outils QA
 
 - **Test Management** : TestRail ou Xray (JIRA)
-- **Automatisation** : Playwright (Python) ou Selenium
-- **CI/CD** : GitHub Actions ou GitLab CI
+- **Automatisation** : Playwright + TypeScript
+- **CI/CD** : GitHub Actions
+- **Reporting** : Allure + Playwright HTML Report
 - **Suivi des bugs** : JIRA / Trello QA
 
 ---
